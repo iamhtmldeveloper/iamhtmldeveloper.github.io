@@ -1,0 +1,114 @@
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+
+    body {
+        overflow-y: auto;
+    }
+
+    section {
+        height: auto;
+        padding: 60px 15px 0 !important;
+    }
+
+    #mainNav {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .navbar-shrink#mainNav {
+        background: rgba(0, 0, 0, 1) !important;
+    }
+
+    #mainNav .navbar-nav .nav-item:nth-child(1) {
+        padding-top: 20px;
+    }
+
+    #mainNav .navbar-nav .nav-item .nav-link {
+        padding: 10px 0;
+    }
+
+    header {
+        height: 100vh;
+    }
+
+    footer {
+        width: auto;
+        bottom: 0;
+    }
+
+    .banner-caption .profile {
+        width: 120px;
+        height: 120px;
+    }
+
+    .banner-caption h1 {
+        font-size: 25px;
+    }
+
+    .cd-headline {
+        font-size: 15px;
+    }
+
+    .hobbies-list ul li {
+        width: 48%;
+        margin: 0 0px 10px 0;
+    }
+
+    .certificates-list ul li,
+    .work-list ul li,
+    .experience-list ul li,
+    .personal-buttons li {
+        width: 100%;
+        margin: 0 0 15px 0;
+    }
+
+    .personal-buttons {
+        margin: 0 0 60px 0;
+    }
+
+    .read-more.download {
+        width: 170px;
+    }
+
+    .personal-buttons ul li {
+        display: grid;
+    }
+
+    .personal-buttons ul li:nth-child(2) {
+        margin-left: 10px;
+    }
+
+    address {
+        padding: 20px;
+        margin: 0 0 20px 0;
+        height: auto;
+    }
+
+    .form {
+        margin: 0 0 20px 0;
+    }
+
+    address li {
+        word-break: break-word;
+    }
+
+    .personal-info li {
+        word-break: break-all;
+    }
+
+    .social-list ul {
+        justify-content: space-between;
+    }
+
+    .social-list ul li a {
+        margin: 0 0 4px 0;
+    }
+
+    .skills-list ul {
+        margin: 0;
+    }
+
+    .contact {
+        padding-bottom: 60px !important;
+    }
+
+}
