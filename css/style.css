@@ -75,7 +75,8 @@ ul {
 }
 
 .navbar-shrink#mainNav {
-    background: rgba(0, 0, 0, 0.5) !important;
+    /* background: rgba(0, 0, 0, 0.5) !important; */
+    background: rgba(0, 0, 0, 1) !important;
     padding-top: 0.9rem;
     padding-bottom: 0.5rem;
 }
