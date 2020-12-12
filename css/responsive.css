@@ -98,6 +98,7 @@
   .personal-info li span {
     width: 100%;
     margin: 0;
+    font-weight: bold;
   }
   .personal-info li span::after {
     display: none;
