@@ -63,9 +63,11 @@
   .personal-buttons {
     margin: 0 0 60px 0;
   }
-
+  .personal-buttons .display-flex {
+    flex-wrap: wrap;
+  }
   .read-more.download {
-    width: 170px;
+    width: 100%;
   }
 
   .personal-buttons ul li {
@@ -73,7 +75,7 @@
   }
 
   .personal-buttons ul li:nth-child(2) {
-    margin-left: 10px;
+    margin-left: 0px;
   }
 
   address {
@@ -92,6 +94,13 @@
 
   .personal-info li {
     word-break: break-all;
+  }
+  .personal-info li span {
+    width: 100%;
+    margin: 0;
+  }
+  .personal-info li span::after {
+    display: none;
   }
 
   .social-list ul {
