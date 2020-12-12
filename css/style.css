@@ -569,7 +569,7 @@ p {
 .hobbies-list ul {
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 20px 0 0;
+    margin: 20px 0 70px 0;
 }
 
 .hobbies-list ul li {
