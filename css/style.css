@@ -427,9 +427,8 @@ p {
     margin: 0 0 18px 0;
 }
 
-.personal-info ul {
-    /* display: flex; */
-}
+/* .personal-info ul {
+} */
 
 .personal-info li {
     color: #e0e0e0;
@@ -598,7 +597,7 @@ p {
     margin: 0px 0;
 }
 
-.social-list ul li {}
+/* .social-list ul li {} */
 
 .social-list ul li a {
     background: rgb(19 24 64);
