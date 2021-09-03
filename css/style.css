@@ -4,8 +4,23 @@ body {
     font-family: 'Rubik', sans-serif;
     /* background: #f8f9fa; */
     /* background: #010312; */
+    /* overflow-y: hidden; */
+}
+
+body.background-color {
     background: rgb(1 3 18);
-    overflow-y: hidden;
+}
+
+.background-color-grey {
+    background: #eeee;
+}
+
+.background-color-grey #mainNav {
+    background: rgb(1 3 18);
+}
+
+.background-color-grey #mainNav .navbar-brand img {
+    height: 40px;
 }
 
 h1,
@@ -40,6 +55,7 @@ ul {
     border-radius: 1px;
     position: relative;
     border: 1px solid transparent;
+    display: inline-block;
 }
 
 .read-more:hover {
@@ -53,6 +69,31 @@ ul {
     position: absolute;
     right: 12px;
 }
+
+.read-more.prev::after {
+    display: none;
+}
+
+.read-more.prev::before {
+    content: '\f060';
+    font-family: fontAwesome;
+    position: absolute;
+    left: 12px;
+}
+
+.read-more.next::after {
+    content: '\f061';
+    font-family: fontAwesome;
+    position: absolute;
+    right: 12px;
+}
+
+.read-more.prev {
+    padding-left: 35px;
+}
+
+.read-more.prev,
+.read-more.next {}
 
 .download::after {
     content: '\f019';
@@ -379,7 +420,7 @@ ul {
 
 
 section {
-    height: 100vh;
+    /* height: 100vh; */
     padding: 60px 0 !important;
     position: relative;
 }
@@ -424,11 +465,14 @@ p {
 }
 
 .about p {
-    margin: 0 0 18px 0;
+    margin: 0 0 10px 0;
 }
 
 /* .personal-info ul {
 } */
+.personal-info {
+    margin-top: 8px;
+}
 
 .personal-info li {
     color: #e0e0e0;
@@ -747,8 +791,8 @@ address li.skype:after {
 footer {
     background: #07081f;
     padding: 15px 0;
-    position: absolute;
-    bottom: 72px;
+    /* position: absolute;
+    bottom: 72px; */
     width: 100%;
 }
 
@@ -759,3 +803,129 @@ footer p {
     letter-spacing: 1px;
     margin: 0;
 }
+
+.blogs .card {
+    border: none;
+    background: #07081f;
+    border-radius: 1px;
+}
+
+.blogs .card .card-title {
+    color: #fff;
+    font-size: 20px;
+    line-height: 28px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.blogs .card .card-section {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    margin: 0 0 0.75rem 0;
+}
+
+.blogs .card .card-section p {
+    color: #b5b5b5 !important;
+    text-align: left;
+}
+
+.blogs .card img {
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.blogs .card .read-more {
+    font-size: 12px;
+}
+
+.blog-details {
+    background: #fff;
+    padding: 25px;
+    border: 1px solid #e6e3e3ee;
+}
+
+.blog-details p {
+    color: rgb(1 3 18);
+    margin: 0 0 15px 0;
+}
+
+.blog-details .lists {
+    margin: 0;
+    list-style: disc;
+    padding: 0 0 0 20px;
+}
+
+.blog-details .lists li {
+    margin: 0 0 10px 0;
+}
+
+.blog-details .lists p {
+    font-weight: 600;
+    font-size: 17px;
+    margin: 0 0 10px 0;
+}
+
+.inner-section .pagination {
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.inner-section h1 {
+    font-size: 18px;
+    letter-spacing: 0.7px;
+    padding: 15px 25px;
+}
+
+.inner-section h1:after {
+    display: none;
+}
+
+.blog-details h2,
+.blog-details h3,
+.blog-details h4,
+.blog-details h5,
+.blog-details h6 {
+    color: rgb(1 3 18);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+}
+
+/* start inner section */
+.background-color-white #mainNav {
+    background: rgb(1 3 18);
+}
+
+.inner-title {
+    background: rgb(1 3 18);
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 20px;
+}
+
+.inner-section {
+    padding: 30px 0 0 !important;
+}
+
+aside li a {
+    background: rgb(1 3 18);
+    color: #fff;
+    display: flex;
+    padding: 10px 25px;
+    border-bottom: 1px solid rgb(92 92 95);
+}
+
+.learnTitle {
+    font-size: 20px;
+}
+
+.learnSection {}
+
+/* end inner section */
