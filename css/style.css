@@ -898,6 +898,24 @@ footer p {
     margin: 0 0 15px 0;
 }
 
+/* start breadcrumb */
+.breadcrumb {
+    padding: 0;
+    margin: 0 0 20px 0;
+    border-radius: 1px;
+    background: transparent;
+}
+
+.breadcrumb a {
+    color: #6c757d;
+}
+
+.breadcrumb-item.active {
+    color: rgb(1 3 18);
+}
+
+/* end breadcrumb */
+
 /* start inner section */
 .background-color-white #mainNav {
     background: rgb(1 3 18);
@@ -908,11 +926,13 @@ footer p {
     color: #fff;
     padding: 10px 25px;
     font-size: 20px;
+    margin: 0 0 30px 0;
 }
 
 .inner-section {
-    padding: 30px 0 0 !important;
+    padding: 115px 0 0 !important;
 }
+
 
 aside li a {
     background: rgb(1 3 18);
@@ -933,3 +953,32 @@ aside li a.active {
 .learnSection {}
 
 /* end inner section */
+
+/* .bootstrapCheatsheet {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.bootstrapCheatsheet .card {
+    width: calc(100% / 3 - 20px);
+    margin: 30px 0 0 0;
+} */
+
+.learnSkills .card {
+    border: none;
+}
+
+.learnSkills .card .card-header {
+    background: rgb(1 3 18);
+    color: #b5b5b5;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 7px 7px 0 0;
+}
+
+.learnSkills .card .card-body {
+    border: 1px solid rgba(0, 0, 0, .125);
+}
